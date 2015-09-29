@@ -1,0 +1,14 @@
+lightweight timer for pomodoro technique. 
+
+dependencies:
+	* Figlet:  to format the displayed time
+	* Ncurses: for the 'clear' command
+	* Xterm:   (optional) default terminal launched on completion
+	* Cmatrix: (optional) default command ran in launched terminal
+
+usage: p-timer [-h] [-m MINUTES] [-c COMMAND]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MINUTES, --minutes MINUTES
+  -c COMMAND, --command COMMAND
